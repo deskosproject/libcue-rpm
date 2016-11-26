@@ -1,6 +1,6 @@
 Name:		libcue
 Version:	1.3.0
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	Cue sheet parser library
 
 Group:		System Environment/Libraries
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 26 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.3.0-7
+- Rebuilt for DeskOS
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.3.0-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
